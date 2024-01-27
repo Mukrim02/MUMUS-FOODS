@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+.navbar{
+    margin: 0;
+    padding: 0;
+    background-color: #CD0000;
+    overflow: hidden; 
+    display: flex;
+    height: 100px;
+}
+.tecs h2{
+    color: #000;
+    font-family: Aclonica;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.tecs h4{
+    color: #000;
+font-family: Abhaya Libre;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+.tecs{
+    margin: auto
+}
+
+.box{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    margin: auto
+    
+}
+.box img{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+.left-pic{
+    width:425px ;
+    height: 606px;
+    display: grid;
+    padding: 10px;
+    grid-template-columns:auto auto auto;
+    justify-content: start;
+    align-items: center;
+    
+
+}
+
+
+/*------------------------------display imag and  content start
+
+#studying{
+  width: 296px;
+height: 303px;
+margin-top: 50px;
+}
+#shopping{
+     width: 296px;
+height: 303px;
+float: left;
+margin-right: auto;
+
+}
+#rainbow{
+    width: 394px;
+height: 404px;
+float: inline-start;
+}
+
+------------------------------display imag and  content end*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+
+.left-otp {
+    width: 350px;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.otp-cont{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+    background-color: rgba(255, 208, 0, 0.56);
+    height: 100%;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+    border-radius: 170px;
+    margin: 10px;
+}
+
+
+.digit-group input {
+		width: 30px;
+		height: 50px;
+		background-color: lighten(white, 5%);
+		border: none;
+		line-height: 50px;
+		text-align: center;
+		font-size: 24px;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 200;
+		color: white;
+		margin: 5px;
+        border-radius: 10px;
+
+}
+
+.splitter {
+		padding: 0 5px;
+		color: white;
+		font-size: 24px;
+	}
+
+
+.left-otp h2 {
+	margin-bottom: 30px;
+	font-size: 30px;
+	color:#000;
+    margin-left: 30px;
+
+}
+.left-otp button{
+    color: #000;
+    font-family: Content;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 170px;
+    background: #FFD000;
+    border: 0;
+    margin: 5% 25%;
+}
+@media only screen and (max-width:600px){
+    .navbar{
+        width: auto;
+        margin-bottom: 100px;
+    }
+    .left-otp{
+        display: contents;
+        margin-top: 50%;
+    }
+    .left-otp h2{
+        margin-top: auto;
+        text-align: center;
+    }
+}

@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+.navbar{
+    margin: 0;
+    padding: 0;
+    background-color: #CD0000;
+    overflow: hidden; 
+    display: flex;
+}
+.tecs h2{
+    color: #000;
+    font-family: Aclonica;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.tecs h4{
+    color: #000;
+font-family: Abhaya Libre;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+.tecs{
+    margin: auto
+}
+
+.box{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    margin: auto
+    
+}
+.box img{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+.left-pic{
+    width:425px ;
+    height: 606px;
+    display: grid;
+    padding: 10px;
+    grid-template-columns:auto auto auto;
+    justify-content: start;
+    align-items: center;
+    
+
+}
+
+
+/*------------------------------display imag and  content start
+
+#studying{
+  width: 296px;
+height: 303px;
+margin-top: 50px;
+}
+#shopping{
+     width: 296px;
+height: 303px;
+float: left;
+margin-right: auto;
+
+}
+#rainbow{
+    width: 394px;
+height: 404px;
+float: inline-start;
+}
+
+------------------------------display imag and  content end*/
+
+.login{
+    width: 350px;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.login h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0px;
+}
+.login p{
+    font-size: 20px;
+    margin: 15px 0;
+}
+.login input{
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 170px;
+    background: rgba(255, 208, 0, 0.56);
+    margin-bottom: 25px;
+    color: #025E00;
+    font-family: Content;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.login button{
+color: #000;
+font-family: Content;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+padding: 10px 15px;
+width: 50%;
+border-radius: 170px;
+background: #FFD000;
+border: 0;
+margin: 0 20%;
+}
+@media only screen and (max-width:600px){
+    .navbar{
+        width: auto;
+    }
+    .login{
+        display: contents;
+        margin: auto;
+    }
+    form{
+
+        margin: auto;
+        width:50%;
+        
+    }
+
+}
